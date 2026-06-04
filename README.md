@@ -42,9 +42,9 @@ There are two ways to experience the project:
 *If you just want to play the compiled game directly:*
 
 1. Go to the **Releases** page of this repository.
-2. Download the `XYZ.zip` file.
+2. Download the `Game.zip` file.
 3. Extract the archive to a folder on your computer.
-4. Run `XYZ.exe`, and have fun playing the game!
+4. Run `Tower_Defense.exe`, and have fun playing the game!
 
 > [!WARNING]
 > **Crucial Dependency:** Ensure that the `_Data` folder remains in the exact same directory as the `.exe` file. The standalone executable will not launch without it.
