@@ -9,10 +9,10 @@ public class Building : MonoBehaviour
 {
     [Header("Health Settings")]
     /// <summary>The current remaining health points of the building.</summary>
-    public int hp = 50;
+    public int hp = 200;
 
     /// <summary>The maximum health capacity points of the building.</summary>
-    public int maxHp = 50;
+    public int maxHp = 200;
 
     [Header("Leveling Settings")]
     /// <summary>The current upgrade tier level of the structure.</summary>

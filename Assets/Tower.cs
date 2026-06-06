@@ -10,7 +10,7 @@ public class Tower : MonoBehaviour
     private Transform currentTarget;
 
     /// <summary>The maximum radial range threshold inside which the tower can acquire and lock onto targets.</summary>
-    public float range = 5f;
+    public float range = 11f;
 
     /// <summary>The prefabricated GameObject archetype for projectile munitions generated upon attacking.</summary>
     public GameObject projectilePrefab;
@@ -19,7 +19,7 @@ public class Tower : MonoBehaviour
     public Transform firePoint;
 
     /// <summary>The weapon fire interval delay expressed in seconds between consecutive shots.</summary>
-    public float fireRate = 1f;
+    public float fireRate = 0.8f;
 
     /// <summary>Internal timer tracking engine delta pacing to evaluate when weapon systems are ready to cycle.</summary>
     private float fireTimer = 0f;

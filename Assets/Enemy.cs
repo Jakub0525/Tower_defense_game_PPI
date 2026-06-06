@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     private int maxHP;
 
     /// <summary>The current active health points remaining for this unit.</summary>
-    public int hp = 100;
+    public int hp = 75;
 
     /// <summary>The mandatory cooldown time delay in seconds required between consecutive structural hits.</summary>
     private float timeBetweenAttacks = 1f;
@@ -117,7 +117,7 @@ public class Enemy : MonoBehaviour
         if (healthBar != null) healthBar.UpdateBar(hp, maxHP);
         if (hp <= 0)
         {
-            GameManager.instance.AddGold(5);
+            GameManager.instance.AddGold(15);
             Destroy(gameObject);
         }
     }
